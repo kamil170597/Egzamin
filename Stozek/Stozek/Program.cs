@@ -34,8 +34,8 @@ namespace Stozek
                         Console.WriteLine($"H= {(Pitagoras(R, L))}");
                         Console.WriteLine($"H= {H}");
                         Console.WriteLine($"V={Objetosc(R, Pitagoras(R, L))}");
-                        Console.WriteLine($"V={Math.Floor(Objetosc(R, Pitagoras(R, L)))}");
-                        Console.WriteLine($"V={Math.Round(Objetosc(R, Pitagoras(R, L)),1)}");
+                        Console.WriteLine($"V={Math.Floor(Objetosc(R, Pitagoras(R, L)))} {Math.Round(Objetosc(R, Pitagoras(R, L)), 0)}");
+                        //Console.WriteLine($"V={Math.Round(Objetosc(R, Pitagoras(R, L)),0)}");
                     }
                     else
                     {
