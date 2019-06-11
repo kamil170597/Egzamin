@@ -25,12 +25,22 @@ namespace Stozek
                 {
                     Console.WriteLine("Ujemny argument");
                 }
-                else
+                else 
                 {
                     H = Pitagoras(R, L);
-                    Console.WriteLine($"H= {(Pitagoras(R, L))}");
-                    Console.WriteLine($"H= {H}");
-                    Console.WriteLine($"V={Objetosc(R, Pitagoras(R, L))}");
+                   
+                    if ((Math.Pow(R, 2) + Math.Pow(H, 2)) == Math.Pow(L, 2))
+                    {
+                        Console.WriteLine($"H= {(Pitagoras(R, L))}");
+                        Console.WriteLine($"H= {H}");
+                        Console.WriteLine($"V={Objetosc(R, Pitagoras(R, L))}");
+                        Console.WriteLine($"V={Math.Floor(Objetosc(R, Pitagoras(R, L)))}");
+                        Console.WriteLine($"V={Math.Round(Objetosc(R, Pitagoras(R, L)),1)}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Obiekt nie istnieje");
+                    }
                 }
             }
             else
@@ -51,7 +61,7 @@ namespace Stozek
         static public double Objetosc(double p,double h)
         {
             double objetosc_wynik;
-            objetosc_wynik = (1 / 3) * (((Math.Pow(p, 2)) * 3.14 * h));
+            objetosc_wynik =((Math.Pow(p, 2)) * 3.14 * h)/3;
 
 
             return objetosc_wynik;
