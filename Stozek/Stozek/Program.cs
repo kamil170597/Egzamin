@@ -51,7 +51,7 @@ namespace Stozek
         static public double Objetosc(double p,double h)
         {
             double objetosc_wynik;
-            objetosc_wynik = 1 / 3 * ((Math.Pow(p, 2)) * 3.14 * h);
+            objetosc_wynik = (1 / 3) * (((Math.Pow(p, 2)) * 3.14 * h));
 
 
             return objetosc_wynik;
