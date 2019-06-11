@@ -8,7 +8,7 @@ namespace Stozek
 {
     class Program
     {
-        double Pi = 3.14;
+        //double Pi = 3.14;
         static void Main(string[] args)
         {
             Double R, L;
