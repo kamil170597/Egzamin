@@ -11,24 +11,25 @@ namespace Stozek
         //double Pi = 3.14;
         static void Main(string[] args)
         {
-            Double R, L;
-            
-            double H;
-            Console.WriteLine("Podaj R: ");
-            R = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Podaj L: ");
-            L = Convert.ToDouble(Console.ReadLine());
+            Double R, L, H;
 
-            if(R<=1000000 && R>=-1000000 && L<=1000000 && L>=-1000000)
+            Console.WriteLine("Podaj liczbę R i L oddzielone spacją!");
+            string[] numbers = Console.ReadLine().Split();
+
+            R = Convert.ToDouble(numbers[0]);
+
+            L = Convert.ToDouble(numbers[1]);
+
+            if (R <= 1000000 && R >= -1000000 && L <= 1000000 && L >= -1000000)
             {
                 if (R < 0 || L < 0)
                 {
                     Console.WriteLine("Ujemny argument");
                 }
-                else 
+                else
                 {
                     H = Pitagoras(R, L);
-                   
+
                     if ((Math.Pow(R, 2) + Math.Pow(H, 2)) == Math.Pow(L, 2))
                     {
                         Console.WriteLine($"H= {(Pitagoras(R, L))}");
@@ -48,23 +49,25 @@ namespace Stozek
                 Console.WriteLine("Liczby poza zakresem ");
             }
 
-
+            Console.ReadLine();
         }
         static public double Pitagoras(double a, double b)
         {
             double wynik;
-            double tmp = ((Math.Pow(a,2))-(Math.Pow(b,2)))*(-1);
-            wynik= Math.Sqrt(tmp);
+            double tmp = ((Math.Pow(a, 2)) - (Math.Pow(b, 2))) * (-1);
+            wynik = Math.Sqrt(tmp);
 
             return wynik;
         }
-        static public double Objetosc(double p,double h)
+        static public double Objetosc(double p, double h)
         {
             double objetosc_wynik;
-            objetosc_wynik =((Math.Pow(p, 2)) * 3.14 * h)/3;
+            objetosc_wynik = ((Math.Pow(p, 2)) * 3.14 * h) / 3;
 
 
             return objetosc_wynik;
         }
     }
+
+
 }

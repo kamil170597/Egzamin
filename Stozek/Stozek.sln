@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stozek", "Stozek\Stozek.csproj", "{2CC66BC1-E8A6-488C-ABB5-23343579E2DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tablice", "Tablice\Tablice.csproj", "{F3334A85-9139-40BE-9FF2-725E9E3F220D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista", "Lista\Lista.csproj", "{CA4E0EC5-7D78-45E3-8772-7A70ACAE182F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolejkaStos", "KolejkaStos\KolejkaStos.csproj", "{66861687-BA04-447D-B97A-A009F9002341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbior", "Zbior\Zbior.csproj", "{FA70C0B7-E22D-4E07-9998-5002D00C69D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slowniki", "Slowniki\Slowniki.csproj", "{30263588-8A07-4796-9976-EDE4F8CECBE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{2CC66BC1-E8A6-488C-ABB5-23343579E2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC66BC1-E8A6-488C-ABB5-23343579E2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC66BC1-E8A6-488C-ABB5-23343579E2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3334A85-9139-40BE-9FF2-725E9E3F220D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3334A85-9139-40BE-9FF2-725E9E3F220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3334A85-9139-40BE-9FF2-725E9E3F220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3334A85-9139-40BE-9FF2-725E9E3F220D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4E0EC5-7D78-45E3-8772-7A70ACAE182F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4E0EC5-7D78-45E3-8772-7A70ACAE182F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4E0EC5-7D78-45E3-8772-7A70ACAE182F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4E0EC5-7D78-45E3-8772-7A70ACAE182F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66861687-BA04-447D-B97A-A009F9002341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66861687-BA04-447D-B97A-A009F9002341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66861687-BA04-447D-B97A-A009F9002341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66861687-BA04-447D-B97A-A009F9002341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA70C0B7-E22D-4E07-9998-5002D00C69D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA70C0B7-E22D-4E07-9998-5002D00C69D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA70C0B7-E22D-4E07-9998-5002D00C69D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA70C0B7-E22D-4E07-9998-5002D00C69D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30263588-8A07-4796-9976-EDE4F8CECBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30263588-8A07-4796-9976-EDE4F8CECBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30263588-8A07-4796-9976-EDE4F8CECBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30263588-8A07-4796-9976-EDE4F8CECBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
