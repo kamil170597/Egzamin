@@ -82,6 +82,8 @@ namespace Tablice
 
             }
             Console.WriteLine($"Najmniejsza srednia:{srednia}");
+
+            Console.ReadLine();
         }
     }
 }

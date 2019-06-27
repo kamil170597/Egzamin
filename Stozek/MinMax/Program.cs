@@ -10,7 +10,7 @@ namespace MinMax
     {
         static void Main(string[] args)
         {
-            int rozmiar,Min=0,Max=0;
+            int rozmiar;
             Random zmienna = new Random();
             Console.WriteLine("Podaj rozmair tablicy: ");
             rozmiar=Convert.ToInt32(Console.ReadLine());
@@ -36,14 +36,42 @@ namespace MinMax
             }
             Console.WriteLine("");
 
+            int[] min = new int[rozmiar];
+            int[] max = new int[rozmiar];       
 
 
 
+            for (int i = 0; i < rozmiar; i++)
+            {
+                for (int j = 0; j < rozmiar; j++)
+                {
+                    if (tab[i, j] > max[j])
+                    {
+                        max[j] = tab[i, j];
+                    }
+
+                    if(tab[i,j]< min[j])
+                    {
+                        min[j] = tab[i, j];
+                    }
+                   
+                }
+            }
+            Console.WriteLine();
+
+            for(int i=0;i<rozmiar;i++)
+            {
+                Console.Write(max[i]+" ");
+            }
+            Console.WriteLine();
+
+            for (int i = 0; i < rozmiar; i++)
+            {
+                Console.Write(max[i] + " ");
+            }
 
 
-
-
-
+            Console.ReadLine();
 
         }
     }
