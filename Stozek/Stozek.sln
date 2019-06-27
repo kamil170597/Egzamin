@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slowniki", "Slowniki\Slowni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraniaTrojkatny", "GraniaTrojkatny\GraniaTrojkatny.csproj", "{593EC98C-10B1-497E-A35E-9D474B963D37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMax", "MinMax\MinMax.csproj", "{17F87B1E-73D2-4D79-82E9-2D930A65FD20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{593EC98C-10B1-497E-A35E-9D474B963D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593EC98C-10B1-497E-A35E-9D474B963D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{593EC98C-10B1-497E-A35E-9D474B963D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F87B1E-73D2-4D79-82E9-2D930A65FD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F87B1E-73D2-4D79-82E9-2D930A65FD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F87B1E-73D2-4D79-82E9-2D930A65FD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F87B1E-73D2-4D79-82E9-2D930A65FD20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
