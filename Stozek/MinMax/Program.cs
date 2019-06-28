@@ -39,12 +39,17 @@ namespace MinMax
             int[] min = new int[rozmiar];
             int[] max = new int[rozmiar];       
 
-
+            for(int i=0;i<rozmiar;i++)
+            {
+                min[i] = tab[0,i];
+            }
 
             for (int i = 0; i < rozmiar; i++)
             {
                 for (int j = 0; j < rozmiar; j++)
                 {
+                  
+
                     if (tab[i, j] > max[j])
                     {
                         max[j] = tab[i, j];
@@ -67,7 +72,7 @@ namespace MinMax
 
             for (int i = 0; i < rozmiar; i++)
             {
-                Console.Write(max[i] + " ");
+                Console.Write(min[i] + " ");
             }
 
 
