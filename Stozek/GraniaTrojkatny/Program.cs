@@ -25,6 +25,8 @@ namespace GraniaTrojkatny
                     Console.WriteLine($"Pole podstawy wynosi:{Math.Round(PolePodsawy(podstawa))}");
                     Console.WriteLine($"Pole boczne figury wynosi: {Math.Round(PoleBoczne(podstawa, H))}");
                     Console.WriteLine($"Pole całkowite wynosi:{Math.Round(PC)}");
+                    Console.WriteLine($"Objetosc wynosi:{Math.Round(Objetosc(PolePodsawy(podstawa),H))}");
+                    Console.ReadLine();
 
                 }
                 else
@@ -67,5 +69,10 @@ namespace GraniaTrojkatny
             
         }
 
+        static double Objetosc(double PP, double H)
+        {
+            double V;
+            return V= (PP * H)/3; 
+        }
     }
 }
