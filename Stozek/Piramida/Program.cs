@@ -16,11 +16,25 @@ namespace Piramida
             dlugosc = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Podaj długość krawędzi: ");
             krawedz = Convert.ToDouble(Console.ReadLine());
-            double ObjetosFigury = Objetosc(dlugosc, WysokoscFigury(dlugosc, krawedz));
+            if (dlugosc >= 0 || krawedz >= 0)
+            {
+                if (WysokoscFigury(dlugosc,krawedz) > 0)
+                {
+                    double ObjetosFigury = Objetosc(dlugosc, WysokoscFigury(dlugosc, krawedz));
 
-            Console.WriteLine($"Objesosc wynosi: {ObjetosFigury}");
-            Console.ReadLine();
+                    Console.WriteLine($"Objesosc wynosi: {ObjetosFigury}");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("Nie spełniono warunku na powstanie trojakata!!!");
+                }
 
+            }
+            else
+            {
+                Console.WriteLine("Podane wartosci nie mogą być ujemne !!!");
+            }
 
         }
 
@@ -28,11 +42,16 @@ namespace Piramida
         {
             double wynik;
             double przekatna = (a*Math.Sqrt(2)) / 2;
-            //double tmp = ((Math.Pow(przekatna, 2)) - (Math.Pow(b, 2))) * (-1);
-            double tmp= (Math.Pow(b, 2))-(Math.Pow(przekatna, 2));
-            wynik = Math.Sqrt(tmp);
-
-            return wynik;
+            double tmp = ((Math.Pow(przekatna, 2)) - (Math.Pow(b, 2))) * (-1); 
+            if (tmp + Math.Pow(przekatna, 2) == Math.Pow(b, 2))
+            {
+                wynik = Math.Sqrt(tmp);
+                return wynik;
+            }
+            else
+            {
+                return -1;
+            }
         }
 
         static double Objetosc(double a,double h)
