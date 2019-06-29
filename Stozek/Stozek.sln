@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Literki", "Literki\Literki.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabMaxWiersz", "TabMaxWiersz\TabMaxWiersz.csproj", "{709CF9F4-4A96-4E8C-913A-9A2BEF692C75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piramida", "Piramida\Piramida.csproj", "{EEE5048C-8FC5-4D35-B77F-4527365FB0A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{709CF9F4-4A96-4E8C-913A-9A2BEF692C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{709CF9F4-4A96-4E8C-913A-9A2BEF692C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{709CF9F4-4A96-4E8C-913A-9A2BEF692C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE5048C-8FC5-4D35-B77F-4527365FB0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE5048C-8FC5-4D35-B77F-4527365FB0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE5048C-8FC5-4D35-B77F-4527365FB0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE5048C-8FC5-4D35-B77F-4527365FB0A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
